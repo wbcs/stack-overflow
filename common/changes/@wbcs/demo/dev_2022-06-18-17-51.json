@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@wbcs/demo",
+      "comment": "add a demo project",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@wbcs/demo"
+}
