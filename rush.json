@@ -458,8 +458,13 @@
     {
       "packageName": "@wbcs/koa",
       "projectFolder": "apps/koa",
-      "reviewCategory": "production",
       "tags": ["server"]
+    },
+    {
+      "packageName": "@wbcs/demo",
+      "projectFolder": "packages/demo",
+      "tags": ["package"],
+      "shouldPublish": true
     }
     //
     // {
