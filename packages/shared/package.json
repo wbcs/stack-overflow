@@ -1,0 +1,24 @@
+{
+  "name": "@wbcs/shared",
+  "version": "0.0.0",
+  "description": "some usefull utils",
+  "main": "dist/cjs/index.js",
+  "module": "dist/es/index.js",
+  "sideEffects": false,
+  "scripts": {
+    "build": "npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc --module esnext --outDir dist/es",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shared",
+    "utils"
+  ],
+  "author": "wbcs",
+  "license": "ISC",
+  "devDependencies": {
+    "@wbcs/ts": "workspace:*",
+    "typescript": "next"
+  }
+}

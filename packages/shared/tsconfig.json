@@ -1,0 +1,11 @@
+{
+  "extends": "@wbcs/ts",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": "src",
+    "target": "esnext",
+    "resolveJsonModule": true,
+    "declaration": true
+  },
+  "exclude": ["node_modules"]
+}

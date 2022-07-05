@@ -461,9 +461,13 @@
       "tags": ["server"]
     },
     {
-      "packageName": "@wbcs/demo",
-      "projectFolder": "packages/demo",
-      "tags": ["package"],
+      "packageName": "@wbcs/ts",
+      "projectFolder": "packages/ts",
+      "shouldPublish": false
+    },
+    {
+      "packageName": "@wbcs/shared",
+      "projectFolder": "packages/shared",
       "shouldPublish": true
     }
     //

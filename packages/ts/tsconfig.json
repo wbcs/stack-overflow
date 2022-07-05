@@ -3,8 +3,6 @@
     "target": "esnext",
     "module": "esnext",
     "moduleResolution": "node",
-    "baseUrl": ".",
-    "outDir": "dist",
-    "rootDir": "src"
+    "resolveJsonModule": true
   }
 }
