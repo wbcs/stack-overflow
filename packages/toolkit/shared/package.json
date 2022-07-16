@@ -18,7 +18,7 @@
   "author": "wbcs",
   "license": "ISC",
   "devDependencies": {
-    "@wbcs/ts": "workspace:*",
+    "@wbcs/types": "workspace:*",
     "typescript": "next"
   }
 }

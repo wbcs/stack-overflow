@@ -1,5 +1,5 @@
 {
-  "extends": "@wbcs/ts",
+  "extends": "@wbcs/types",
   "compilerOptions": {
     "baseUrl": ".",
     "rootDir": "src",

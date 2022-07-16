@@ -176,7 +176,7 @@
    * and set projectFolderMaxDepth to a large number.
    */
   // "projectFolderMinDepth": 2,
-  // "projectFolderMaxDepth": 2,
+  "projectFolderMaxDepth": 3,
 
   /**
    * Today the npmjs.com registry enforces fairly strict naming rules for packages, but in the early
@@ -456,19 +456,23 @@
     // },
     //
     {
-      "packageName": "@wbcs/koa",
-      "projectFolder": "apps/koa",
-      "tags": ["server"]
+      "packageName": "@wbcs/learn",
+      "projectFolder": "apps/learn"
     },
     {
-      "packageName": "@wbcs/ts",
-      "projectFolder": "packages/ts",
+      "packageName": "@wbcs/types",
+      "projectFolder": "packages/toolkit/types",
       "shouldPublish": false
     },
     {
       "packageName": "@wbcs/shared",
-      "projectFolder": "packages/shared",
+      "projectFolder": "packages/toolkit/shared",
       "shouldPublish": true
+    },
+    {
+      "packageName": "@wbcs/postcss-plugin",
+      "projectFolder": "packages/plugins/postcss-plugin",
+      "shouldPublish": false
     }
     //
     // {
