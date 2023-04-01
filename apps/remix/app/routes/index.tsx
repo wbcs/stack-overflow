@@ -1,14 +1,15 @@
-// 不报错。AntdButton 有样式，ArcoButton 没有样式
-import * as esbuild from 'shared/esbuild'
-import * as rollup from 'shared/rollup'
+import EsbuildAntd from 'shared/esbuild/AntdButton'
+import EsbuildArco from 'shared/esbuild/ArcoButton'
+import RollupAntd from 'shared/rollup/AntdButton'
+import RollupArco from 'shared/rollup/ArcoButton'
 
 export default function Index() {
   return (
     <div>
-      <esbuild.AntdButton />
-      <esbuild.ArcoButton />
-      <rollup.AntdButton />
-      <rollup.ArcoButton />
+      <EsbuildAntd />
+      <EsbuildArco />
+      <RollupAntd />
+      <RollupArco />
     </div>
   )
 }

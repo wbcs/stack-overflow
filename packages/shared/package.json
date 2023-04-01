@@ -3,15 +3,15 @@
   "version": "0.1.0",
   "type": "module",
   "exports": {
-    "./esbuild": {
-      "import": "./dist/esbuild/index.js",
-      "default": "./dist/esbuild/index.js",
-      "types": "./dist/types/index.d.ts"
+    "./esbuild/*": {
+      "import": "./dist/esbuild/*.js",
+      "default": "./dist/esbuild/*.js",
+      "types": "./dist/types/*.d.ts"
     },
-    "./rollup": {
-      "import": "./dist/rollup/index.js",
-      "default": "./dist/rollup/index.js",
-      "types": "./dist/types/index.d.ts"
+    "./rollup/*": {
+      "import": "./dist/rollup/*.js",
+      "default": "./dist/rollup/*.js",
+      "types": "./dist/types/*.d.ts"
     }
   },
   "files": [

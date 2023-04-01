@@ -2,6 +2,9 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "skipLibCheck": true,
-    "noEmit": false
+    "noEmit": false,
+    "lib": ["ES2015", "DOM"],
+    "module": "ESNext",
+    "target": "ESNext"
   }
 }

@@ -1,5 +1,7 @@
 ## intro
 
+> 一般开发携带样式的库，都会基于一个 UI 库进行二次开发
+
 一个基于第三方 ui 库进行二次封装的组件库
 
 ```jsonc
@@ -42,7 +44,7 @@ export { AntdButton_default as AntdButton, ArcoButton_default as ArcoButton }
 
 - babel 产物
 
-头部被插入了一条 `import '@arco-design/web-react/lib/Button/style/css'`, 并非标准 js 文件
+头部被插入了一条 `import '@arco-design/web-react/lib/Button/style/css'`
 
 ```js
 import '@arco-design/web-react/es/Button/style/css'
