@@ -8,5 +8,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.5",
+  "devDependencies": {
+    "esbuild": "^0.25.1",
+    "glob": "^11.0.1",
+    "typescript": "^5.8.2"
+  }
 }
